@@ -1,0 +1,449 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+	<head>
+		<meta charset="UTF-8">
+		<!-- InstanceBeginEditable name="doctitle" -->
+		<title>My Portfolio | 中道和希</title>
+		<!-- InstanceEndEditable -->
+		<link rel="icon" type="image/png" href="img/favicon.png">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery-3.6.0.js"></script>
+	<!-- InstanceBeginEditable name="head" -->
+	<!-- InstanceEndEditable -->
+	</head>
+
+	<body>
+		<div id="all">
+			<a id = "HOME"></a>
+		  <div class="TOP" id="header">
+				<header>
+					<a href="https://sites.google.com/view/mixtuti/" target="_blank" rel="noopener noreferrer">
+						<img src="img/favicon.png" class="img">
+					</a>
+					<h1><span class="gradation">My Portfolio</span></h1>
+					<h2>
+						HW20A086 中道和希
+					</h2>
+					<h3>
+						大阪電気通信大学　総合情報学部　デジタルゲーム学科
+					</h3>
+				</header>
+			</div>
+			
+			<div class="container">
+				<div id="main">
+					<div class="nav">
+						<div class="box">
+							<nav>
+								<h2 class="rainbow" style="color: #ff5353;">メニュー</h2>
+								<section id="menu">
+									<ul class="accordion1">
+										<li>
+        									<p>▼トップ</p>
+											<ul class="inner">
+												<li><a href="index.html#skill">スキル</a></li>
+												<li><a href="index.html#sikaku">資格</a></li>
+												<li><a href="index.html#zyusyou">受賞歴</a></li>
+												<li><a href="index.html#pr">自己PR</a></li>
+											</ul>
+    									</li>
+										<li>
+        									<p>▼ゲーム関連</p>
+											<ul class="inner">
+												<li><a href="program.html#PDT">Pon DE Touhou</a></li>
+												<li><a href="program.html#kemono">ケモノファンタジー</a></li>
+												<li><a href="program.html#ose">逢瀬</a></li>
+												<li><a href="program.html#aki">あきなし & あきなし2</a></li>
+												<li><a href="program.html#enemy">レグ・ダーティ</a></li>
+												<li><a href="program.html#hunter">ハンターアビリティ</a></li>
+												<li><a href="program.html#oct">OCTOGETHER</a></li>
+												<li><a href="program.html#pc">Perfect Crime</a></li>
+												<li><a href="program.html#sgf">サウンドガンファイト</a></li>
+											</ul>
+										</li>
+										<li>
+        									<p>▼デザイン</p>
+											<ul class="inner">
+												<li><a href="graphic.html#2d">2D</a></li>
+												<li><a href="graphic.html#3d">3D</a></li>
+												<li><a href="graphic.html#unsolo">アンソロジー</a></li>
+											</ul>
+										</li>
+										<li>
+        									<p>▼サウンド</p>
+											<ul class="inner">
+												<li>コンテンツ１</li>
+												<li>コンテンツ２</li>
+												<li>コンテンツ３</li>
+											</ul>
+										</li>
+									</ul>
+									<script>
+										$(function(){
+											//.accordion1の中のp要素がクリックされたら
+											$('.accordion1 p').click(function(){
+												//クリックされた.accordion1の中のp要素に隣接するul要素が開いたり閉じたりする。
+												$(this).next('ul').slideToggle();
+											});
+										});
+									</script>
+								</section>
+									<a class="twitter-timeline"  data-width="100%" data-height="400" data-theme="light"  href="https://twitter.com/mixtuti_mochi?ref_src=twsrc%5Etfw">Tweets by mixtuti_mochi</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							</nav>
+						</div>
+					</div>
+				
+					<div class="content">
+						<section id="top">
+						<div class="box">
+						<!-- InstanceBeginEditable name="article" -->
+							<article>
+								<section id="PDT" class="back_blue">
+									<h3>Pon DE Touhou</h3>
+
+									<h4>・ゲーム概要</h4>
+									<p>
+										このゲームは、2021年2月8日（月）午後9時～2月14日（日）午後23時59分に開催された、「東方ニコ遊祭・雪晴」用に制作した二次創作ゲームです。靈異伝を意識した、ブロック崩しゲームでまるで「時間」が遡ったかのように懐かしい気分を味わうことができます。(という建前)
+									</p>
+									<p>
+										実際は、ブロック破壊の度に「爆発」や、決められた「時間」内にどれだけステージをクリアできるかを競うゲームにする予定がありましたが、技術力不足により断念しました。(爆発の方はただうるさいからという理由で没になりました。)
+									</p>
+
+									<h4>・その他</h4>
+									<p>
+										開発をMacでやったので、推奨はMac版をプレイすることです。とりあえず仮でWindows版も用意はしています。一部タイトルが表示されないなどの不具合はあるっぽいですが、ゲーム自体は問題なく動作するはずです。
+									</p>
+									<p>
+										一部の機能が未実装の為、ボールの動きが無限ループに近いような形になることがあります。その場合は、躊躇わずにRキーを押してリセットしてください。
+									</p>
+									<p>
+										下方部の床に触れた場合、ゲームオーバーとなりますが、ボールの挙動がおかしくなり、ゲームオーバー判定にならない場合がありますがその場合もRキーを押してリセットしてください。
+									</p>
+									<p>
+										その他不具合等がございましたら、twitterにてご連絡ください。
+									</p>
+
+									<h4>・あとがき</h4>
+									<p>
+										今回、2021年2月8日（月）午後9時～2月14日（日）午後23時59分に開催された、「東方ニコ遊祭・雪晴」用にゲームを作らせていただきました。二次創作ゲームを作るのが夢だったので漸く願いが叶った感じですね。
+									</p>
+									<p>
+										タイトルの方は、1980年～90年ごろにPC-9801向けに作られた「ぶろっくでポン!」を文字って「Pon DE Touhou」としたり、ゲーム内容は、「靈異伝」を意識して作ったり、とすこし遊んでみました。
+									</p>
+									<p>
+										今後のブラッシュアップでBGMをFM音源風にしたり、ボールを一気に複数個使ったり、残機性にしたり、制限時間をつけてみたりといろいろやりたいことはあります。今後じっくりやっていく予定です。それではまた、次のニコ遊祭でお会いしましょう。
+									</p>
+
+									<h4>・ゲームリンク</h4>
+									<div class="center">
+										<a href="https://drive.google.com/file/d/1p34GYDCyFkY2j_0FS89s0gLqOnJlASml/view?usp=sharing" class="btn btn-border" target="_blank"><span>Mac版</span></a>
+										<a href="https://drive.google.com/file/d/1KH52RGg-PZi8F5Z69RIzKaS26XexijY_/view?usp=sharing" class="btn btn-border" target="_blank"><span>Win32bit版</span></a>
+										<a href="https://drive.google.com/file/d/1o7n2t1A4-o-_L-nA8RPhmUAA9YN5eWTS/view?usp=sharing" class="btn btn-border" target="_blank"><span>Win64bit版</span></a>
+									</div>
+
+									<h4>・動画</h4>
+									<p>▼YouTube</p>
+									<div class="video">
+										<iframe class="movie"　width="640" height="360" src="https://www.youtube.com/embed/xsJdZHmIixU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+								</section>
+
+								<section id="kemono">
+									<h3>ケモノファンタジー</h3>
+
+									<h4>・ゲーム概要</h4>
+									<p>このゲームは、ケモナー向け(?)の2Dアクションゲームとなっています。ほとんど全てをドット絵で作られており、効果音も昔懐かしい雰囲気で作ってみました。尻尾の上下にかなりこだわって制作しました。そのため、アニメーションの量が通常の2倍必要になりとても苦労した作品です。</p>
+
+									<h4>・その他</h4>
+									<p>
+										開発をMacでやったので、推奨はMac版をプレイすることです。とりあえず仮でWindows版も用意はしています。
+									</p>
+									<p>
+										その他不具合等がございましたら、twitterにてご連絡ください。
+									</p>
+
+									<h4>・収録曲</h4>
+									<p>▼YouTube(一部曲のみ)</p>
+									<div class="video">
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/Uej-FW64fQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+									<p>
+										その他効果音も作成しました。レトロで懐かしい雰囲気の効果音を作成しました。効果音は実際にゲームで遊んでみて確認してみてください。
+									</p>
+
+									<h4>・スクリーンショット</h4>
+									<div>
+										<img src="img/kemo1.png" width=50%><img src="img/kemo2.png" width=50%>
+									</div>
+
+									<h4>・ゲームリンク</h4>
+									<div class="center">
+										<a href="https://drive.google.com/file/d/1hE0xEeN2ky4aH_s41NhkWye36F7k0rZp/view?usp=sharing" class="btn btn-border" target="_blank"><span>Mac版</span></a>
+										<a href="https://drive.google.com/file/d/1HD_V7oFBuawOKsUyQPX7eV-UR5JO0E_I/view?usp=sharing" class="btn btn-border" target="_blank"><span>Win32bit版</span></a>
+										<a href="https://drive.google.com/file/d/1xxIvnhsg_7A_B68IbXVzLmzXr993pUgm/view?usp=sharing" class="btn btn-border" target="_blank"><span>Win64bit版</span></a>
+										<a href="https://unityroom.com/games/kemofan" class="btn btn-border" target="_blank"><span>unityroom版</span></a>
+									</div>
+
+									<h4>・動画</h4>
+									<p>▼YouTube</p>
+									<div class="video">
+										<iframe class="movie" width="560" height="315" src="https://www.youtube.com/embed/IyVYDinsVM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+
+									<h4>・資料的なもの</h4>
+									<h5>主人公のデザイン</h5>
+									<img src="img/kemo3.png" width="100%">
+									<p>
+										主人公は、猫をモチーフに描きました。眼は猫目にして大きめにして猫らしさを強調しました。帽子を被らして、元気いっぱいで好奇心旺盛な少年をユーザーがイメージしやすいようにしてみました。首輪は青との対比で赤色にしました。
+									</p>
+									<p>
+										上の段は左から、正面・背面・横向き・歩き1、下の段は歩き2・ジャンプ・クリア・ヤラレ
+									</p>
+									<p>
+										これに加えて尻尾の上下のバージョンも実際にはありますが今回ほとんど同じのため省きます。
+									</p>
+									<h5>敵①のデザイン</h5>
+									<img src="img/kemo4.png" width=100%>
+									<p>
+										この敵は、ハイイロオオカミをモチーフに描きました。主人公と配色はほとんど同じで、ゴーグルを頭につけ、マフラーを巻き、ペンダントを身につけています。身につけているペンダントは、死んだ祖父から貰ったという設定が一応あります。
+									</p>
+
+									<h5>敵②のデザイン</h5>
+									<img src="img/kemo5.png" width=100%>
+									<p>
+										この敵は、アードウルフをモチーフに描きました。配色は元の動物に倣った配色にしています。頭のボサボサでたてがみを表現しました。
+									</p>
+
+									<h5>敵③のデザイン</h5>
+									<img src="img/kemo6.png" width=100%>
+									<p>
+										この敵は、オリジナルで作ってみました。主人公とハイイロオオカミの両方を合わせたようなデザインにしてみました。ゲーム内にも登場させる予定でしたが、もう少し先のステージで出したいという理由で今回は没となりました。
+									</p>
+
+									<h5>アイテムのデザイン</h5>
+									<img src="img/kemo7.png" width=50%>
+									<p>
+										アイテムは「猫が食べるものと言ったら魚」という安易な発想でデザインしました。マサバをイメージして描きました。
+									</p>
+								</section>
+
+								<section id="ose" class="back_blue">
+									<h3>逢瀬</h3>
+									<h4>ゲーム概要</h4>
+									パズルゲーム<br>
+									全ての男性貴族キャラを、対応した色の女貴族に線を繋いで開始を押そう！<br>
+									全員繋がないと押せないよ！<br>
+									unityroomより引用
+									<p>このゲームは2020年に開催された「BitSummit Game Jam」にて制作したゲームです。主要制作期間は約１週間で、メンバーは5人です。</p>
+									<img src="img/ose1.png" width=100%>
+
+									<h4>・制作概要</h4>
+									<p>このゲームは、「つかず離れず」というテーマで制作されたゲームで、平安京を舞台に他人に見つからないように、思い人に会いに行くという、２Dパズルゲームになっています。平安京が舞台ということで、和風な曲を作り、プレイヤーに少しでも雰囲気が伝わるように工夫しました。また、移動前と移動後のBGMを調を変更することで、場面転換を少しでもわかりやすくするように工夫しました。ステージは実際の京都を参考にしました。</p>
+
+									<h4>・スクリーンショット</h4>
+									<div>
+										<img src="img/ose2.png" width=50%><img src="img/ose3.png" width=50%>
+										<img src="img/ose4.png" width=50%>
+									</div>
+
+									<h4>・ゲームリンク</h4>
+									<div class="center">
+										<a href="https://unityroom.com/games/ouse" class="btn btn-border" target="_blank"><span>unityroom版</span></a>
+									</div>
+								</section>
+
+								<section id="aki">
+									<h3>あきなし & あきなし2</h3>
+									
+									<h4>・ゲーム概要</h4>
+									敵に当たらないようにステージ中に散らばった食べ物を全て食べる2Dアクションゲーム
+									<p>
+										このゲームは2020年9月に開催された「OECU_OnlineGameJam2020Summer」にて制作したゲームです。制作期間は４日間で、メンバーは5人です。
+									</p>
+									<p>
+										＊あきなしの方は、ゲーム公開していないので今回は個人的にブラッシュアップしたゲームの方を中心に紹介します。
+									</p>
+									<img src="img/aki1.png" width=100%>
+									
+									<h4>・制作概要</h4>
+									<p>
+										このゲームは、「あき」というテーマで制作されたゲームで、お腹が「空く」事の無いように「秋」にちなんだ食べ物を「飽き」るまで集めながら遊ぶという2Dアクションゲームになっています。白と黒を基調とした、不気味な雰囲気のゲームなので音楽もそれに合わせ不気味な雰囲気で作りました。
+									</p>
+									<p>ブラッシュアップにより、徐々に減る体力ゲージやSEを追加しました。</p>
+									
+									<h4>・ポイントについて</h4>
+									<p>
+										ポイントの表は以下の通りになっています。食べ物を取ること以外でも敵を踏んで倒すことでもポイントを入手できます。しかし、敵にあたると満腹ゲージが減ってしますので気を付けましょう。
+									</p>
+									<ul>
+										<li>リンゴ　200ポイント</li>
+										<li>ブドウ　300ポイント</li>
+										<li>クリ　500ポイント</li>
+										<li>カボチャ　1000ポイント</li>
+										<li>幽霊　100ポイント</li>
+										<li>背の高い男　500ポイント</li>
+									</ul>
+									
+									<h4>・スクリーンショット</h4>
+									<div>
+										<img src="img/aki2.png" width=50%><img src="img/aki3.png" width=50%>
+									</div>
+									
+									<h4>・ゲームリンク</h4>
+									<div class="center">
+										<a href="https://drive.google.com/file/d/1-tuocei57QM5arMp61ZSqKB851bntHv2/view?usp=sharing" class="btn btn-border" target="_blank"><span>Mac版</span></a>
+										<a href="https://drive.google.com/file/d/1RjyUj-Gda142SQauORz2fFDmSLL1GdaB/view?usp=sharing" class="btn btn-border" target="_blank"><span>Win32bit版</span></a>
+										<a href="https://drive.google.com/file/d/1MtC7uRwWNxrKqdzd7QwGzIHJzA3xIqnc/view?usp=sharing" class="btn btn-border" target="_blank"><span>Win64bit版</span></a>
+									</div>
+								</section>
+								<section id="enemy" class="back_blue">
+									<h3>レグ・ダーティ</h3>
+									<h4>・概要</h4>
+									<p>
+										この企画書は2020年12月に開かれた「敵モンスター企画ジャム」ないで制作した企画書です。制作期間は2日間、メンバーは3人です。「状況把握の重要性を伝える」という目的で企画した敵キャラです。名前の由来は、レグルス (小さな王)+ダーティ(汚い)となっています。
+									</p>
+									
+									<h4>・企画書(抜粋)</h4>
+									<p>
+										＊一部著作権的に厳しいので削除しました。
+									</p>
+									<div>
+										<img src="img/enemy1.png" width=100%>
+										<img src="img/enemy2.png" width=50%><img src="img/enemy3.png" width=50%>
+									</div>
+									
+									<h4>・敵デザインについて</h4>
+									<div>
+										<img src="img/enemy4.png" width=100%>
+									</div>
+									<p>
+										コウモリの様な体と、ドラゴンの様な頭がくっついたモンスターにしました。また、洞窟に生息し、毒のブレスを吐くという設定もつけたため、配色は紫をベースに毒々しい色合いにしました。アクセントのために瞳の色は補色に近い緑色を採用しました。
+									</p>
+									
+									<h4>・アニメーション</h4>
+									<div>
+										<img src="img/enemy5.gif" width=100%>
+									</div>
+									<p>
+										羽ばたきアニメーションです。アニメーションの例として制作してみました。２日間と限られた時間しかなかったため、2枚のアニメーションです。
+									</p>
+									
+									<h4>・企画書の全文</h4>
+									<div class="center">
+										<a href="https://drive.google.com/file/d/1MzVliENGcaA9mpNyLVq-_L4fBR26l-ly/view?usp=sharing" class="btn btn-border" target="_blank"><span>企画書</span></a>
+									</div>
+								</section>
+								
+								<section id="hunter">
+									<h3>ハンターアビリティ</h3>
+									<h4>・概要</h4>
+									<p>
+										この企画書は2021年5月に校内で開かれた「ゲーム企画職向け講習会」ないで制作した企画書です。制作期間は2日間、メンバーは3人です。敵の能力を一時的に使用する事で自信を強化し、さらに強い敵に挑んでいくというゲームの企画です。ゲノム編集をしてさらに強化したり、ゲノムツリーを解放したりなどの要素も考えてみました。
+									</p>
+									
+									<h4>・企画書(抜粋)</h4>
+									<div>
+										<img src="img/hunter1.png" width=100%>
+										<img src="img/hunter2.png" width=50%><img src="img/hunter3.png" width=50%>
+									</div>
+									
+									<h4>・敵キャラのデザイン</h4>
+									<div>
+										<img src="img/hunter4.png" width=50%>
+									</div>
+									<p>
+										企画書用挿絵として作成した作品です。スライムの透明感やジェル状の感触を表現するのに苦労しました。
+									</p>
+									
+									<h4>・企画書の全文</h4>
+									<div class="center">
+										<a href="https://drive.google.com/file/d/1OTeRGgvmwRrkaSEKSHHn8l3GLZWUokJC/view?usp=sharing" class="btn btn-border" target="_blank"><span>企画書</span></a>
+									</div>
+								</section>
+								
+								<section id="oct" class="back_blue">
+									<h3>Octogetger</h3>
+									「嵐の次の日、見知らぬ森で目を覚ました少女は不思議ないきものと出会う。 水におおわれた丸く赤い体、水を出したり、水の温度を変える力を持ついきもの。 少女は謎を解き、家に帰ることができるだろうか…」<br>
+									itch.io より引用
+									<p>
+										このゲームは2021年に開催された「BitSummit Game Jam」にて制作したゲームです。主要制作期間は３日間で、メンバーは9人です。
+									</p>
+									<img src="img/oct.png" width=100%>
+									<h4>・制作概要</h4>
+									<p>
+										このゲームは、「柔軟性・適応性」というテーマで制作された謎解きゲームです。かなり謎解きの難易度も高いゲームとなっています。
+									</p>
+									<p>
+										今回は、ビジュアル重視のゲームなため、雰囲気に合うようなBGMを作るのにかなり苦労しました。その分、納得できるサウンドを作ることができたのできました。
+									</p>
+									
+									<h4>・スクリーンショット</h4>
+									<div>
+										<img src="img/oct1.png" width=50%><img src="img/oct2.png" width=50%>
+									</div>
+									
+									<h4>・トレーラー</h4>
+									<p>▼YouTube</p>
+									<div class="video">
+										<iframe class="movie" width="560" height="315" src="https://www.youtube.com/embed/s54mqZRgHkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+									
+									<h4>・ゲームプレイリンク</h4>
+									<div class="center">
+										<a href="https://bitsg-gamejam2021.itch.io/octogether" class="btn btn-border" target="_blank"><span>itch.io</span></a>
+									</div>
+									
+									<h4>・収録曲</h4>
+									<p>▼YouTube</p>
+									<div class="video">
+										<iframe class="movie" width="560" height="315" src="https://www.youtube.com/embed/4l7zoNW2uqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+								</section>
+								
+								<section id="pc">
+									<h3>Perfect Crime</h3>
+									アイテムを回収していきつつ証拠隠滅を謀るゲームです。<br>
+									unityroomより引用
+									<p>
+										このゲームは2021年8月に開催された「入門編ゲームジャム2021」にて制作したゲームです。主要制作期間は4日間で、メンバーは5人です。
+									</p>
+									
+									<img src="img/pc.png" width=100%>
+									
+									<h4>・制作概要</h4>
+									<p>
+										このゲームは、「 ふれる」というテーマで制作された謎解き脱出ゲーム？です。「法に触れる」から着想を得て制作しました。今回は部屋や電灯などの3Dモデル、窓ガラスの割れた模様や一部の証拠などのグラフィックも担当しました。
+									</p>
+									
+									<h4>・ゲーム概要</h4>
+									<p>
+										様々な証拠となる品物を適切な方法で隠滅します。途中、2種類のミッションも発生します。ミッション中は、動かずにじっとすることで時間を増やすことができます。逆に動いてしまうと、時間の進みが早くなってしまいます。
+									</p>
+									
+									<h4>・スクリーンショット</h4>
+									<div>
+										<img src="img/pc1.png" width=50%><img src="img/pc2.png" width=50%>
+									</div>
+									
+									<h4>・ゲームプレイリンク</h4>
+									<div class="center">
+										<a href="https://unityroom.com/games/team08" class="btn btn-border" target="_blank"><span>unityroom</span></a>
+									</div>
+								</section>
+								<section id="sgf" class="back_blue">
+									<h3>サウンドガンファイト</h3>
+									作成中・・・
+								</section>
+                            </article>
+                    	<!-- InstanceEndEditable --> </div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<footer>
+					<a href="https://www.osakac.ac.jp/">大阪電気通信大学</a> &copy;&nbsp;2022　中道和希
+				</footer>
+			</div>
+		</div>
+	</body>
+<!-- InstanceEnd --></html>
